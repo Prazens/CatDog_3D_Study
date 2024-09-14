@@ -1,0 +1,14 @@
+git init : 깃파일 형성
+git remote add origin 주소 : 깃 연결 
+git clone 주소 : 깃 복제해서 연결
+
+git branch : 현재 존재하는 브랜치 확인
+git branch 이름 : 신규 브랜치 생성
+git checkout 이름 : 브랜치로 이동
+
+git add .    : 현재위치한 모든( . ) 파일 업로드 대기열에 준비
+git commit -m "test" : 커밋"test" 추가
+git push origin 이름 : 레퍼지토리 이름 브랜치에 업로드  ( --force 를 뒤에 붙이면 충돌 무시하고 강제로 push)
+git pull origin 이름 : 이름 브랜치로 부터 데이터를 가져옴
+
+*(master) 브랜치 : 브랜치가 없음>> 오류발생가능 >> 브랜치 생성 ㄱㄱ
